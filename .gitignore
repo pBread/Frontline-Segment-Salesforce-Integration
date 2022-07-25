@@ -1,3 +1,4 @@
 .env
 .twiliodeployinfo
 node_modules
+.DS_Store
