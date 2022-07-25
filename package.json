@@ -1,0 +1,13 @@
+{
+  "author": "https://github.com/pBread",
+  "dependencies": {
+    "jsforce": "^1.11.0",
+    "twilio": "^3.77.2"
+  },
+  "name": "frontline-implementation-in-10-minutes",
+  "scripts": {
+    "deploy": "twilio serverless:deploy --no-assets --override-existing-project",
+    "dev": "twilio serverless:start --ngrok=pbread"
+  },
+  "version": "1.0.0"
+}
